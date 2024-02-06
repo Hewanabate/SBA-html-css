@@ -1,0 +1,88 @@
+* {
+   box-sizing: border-box;
+}
+
+#div-body {
+   background-color: #588157;
+
+}
+
+#logo {
+   display: flex;
+   position: absolute;
+   margin-left: 90px;
+   padding-top: 5px;
+   border-radius: 50%;
+
+
+}
+
+h1 {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   padding-top: 0;
+}
+
+nav>ul {
+   display: flex;
+   list-style-type: none;
+   justify-content: flex-end;
+   margin-left: 10px;
+}
+
+#offer {
+   display: flex;
+   position: relative;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding-top: 70px;
+   background-color: #588157;
+}
+
+#connect {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   color: floralwhite
+}
+
+#contact {
+   margin-top: 15px;
+   margin-left: 100px;
+   color: floralwhite
+}
+
+#con {
+   background-color: #588157;
+}
+
+/* for rent car html form */
+#firstform {
+   width: 25%;
+   border: 2px solid white;
+}
+
+#secondform {
+   width: 35%;
+   border: 2px solid white;
+}
+
+#thridform {
+   width: 30%;
+   border: 2px solid white;
+   flex-wrap: wrap;
+}
+
+#allform {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   height: fit-content;
+}
+
+/*  hotel table format */
+table {
+   margin-left: 100px;
+   table-layout: auto;
+}

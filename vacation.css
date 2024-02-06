@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.boxes {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#box1 {
+    background-image: url(https://th.bing.com/th?id=OIP.F4qIy7id9CVXUj85zMMcvAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2);
+
+}
+
+#box1:hover {
+    width: 300px;
+}
+
+/* change font size */
+#box2 {
+    background-image: url("https://th.bing.com/th?id=OIP.C3cQyK05qd5WxUhNVpc-DgHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2");
+    transition-property: font-size;
+    transition-duration: 2s;
+    color: floralwhite;
+}
+
+#box2:hover {
+    font-size: 100px;
+}
+
+/* change the width and height */
+#box3:hover {
+    transition-property: width, height;
+    transition-duration: 2s;
+}
+
+/* zoom out and change some font */
+#box3 {
+    transition-property: font-size;
+    transition-duration: 2s;
+    background-image: url(https://th.bing.com/th?id=OIP.wkZNq1BtbFapgP5p-ZsZdAHaE1&w=309&h=202&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2);
+    color: floralwhite;
+}
+
+#box4 {
+    background-image: url(https://th.bing.com/th?id=OIP.YTGpw6SQYiF1wTaV-iApfAHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2);
+    transition-duration: 0.6s;
+    color: floralwhite;
+}
+
+#box4:hover {
+    transform: translateX(100px);
+}
+
+#box5 {
+    background-image: url(https://th.bing.com/th?id=OIP.Fw0Z9hi8y0f-px0NrW8K8gHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2);
+    transition-duration: 3s;
+    color: floralwhite;
+}
+
+/* rotate the image */
+#box5:hover {
+    transform: rotate(360deg);
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:4px;
+    flex-wrap: wrap;
+}
+
